@@ -21,7 +21,7 @@ if os.path.isfile('env.py'):
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
+#TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 
 
 # Quick-start development settings - unsuitable for production
@@ -33,7 +33,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pp4-software-guys-8bd5692f662f.herokuapp.com', '8000-noahsamawi-pp4softwareg-ke1clpoov2b.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['pp4-software-guys-8bd5692f662f.herokuapp.com', 'localhost', '8000-noahsamawi-pp4softwareg-ke1clpoov2b.ws-eu108.gitpod.io']
 
 
 # Application definition
